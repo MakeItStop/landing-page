@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.header-phone {
+.intro {
   color: white;
   background: url("/images/dawn.jpg") no-repeat;
   background-size: cover;
@@ -10,13 +10,13 @@ body {
   padding-bottom: 100px;
 }
 
-.header-phone .navbar-nav>li>a {
+.intro .navbar-nav>li>a {
   color: white;
   font-size: 18px;
   border-radius: 10px;
 }
 
-.header-phone .navbar {
+.intro .navbar {
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -27,45 +27,45 @@ body {
   border: none;
 }
 
-.header-phone .navbar-default .navbar-nav>.open>a,
-.header-phone .navbar-default .navbar-nav>.open>a:focus,
-.header-phone .navbar-default .navbar-nav>.open>a:hover {
+.intro .navbar-default .navbar-nav>.open>a,
+.intro .navbar-default .navbar-nav>.open>a:focus,
+.intro .navbar-default .navbar-nav>.open>a:hover {
   color: #ccc;
   background-color: transparent;
 }
 
-.header-phone .nav>li>a:focus,
-.header-phone .nav>li>a:hover {
+.intro .nav>li>a:focus,
+.intro .nav>li>a:hover {
   color: #ccc;
   background-color: transparent;
 }
 
-.header-phone .navbar-nav>li {
+.intro .navbar-nav>li {
   margin-right: 20px;
 }
 
-.header-phone .navbar-nav {
+.intro .navbar-nav {
  margin-top: 12px;
 }
 
-.header-phone .navbar-toggle {
+.intro .navbar-toggle {
   background-color: transparent !important;
   margin-top: 20px;
   border: 1px solid #fff;
 }
 
-.header-phone .navbar-toggle .icon-bar {
+.intro .navbar-toggle .icon-bar {
   background-color: white;
 }
 
-.header-phone .navbar-brand {
+.intro .navbar-brand {
   color: white;
   font-size: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.header-phone .navbar-brand:hover {
+.intro .navbar-brand:hover {
   color: #ccc;
 }
 
