@@ -1,8 +1,70 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.header-phone {
+    color: white;
+    background: url("/images/nightsky.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 100px;
+}
+
+.header-phone .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.header-phone .navbar {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 300px;
+    border: none;
+}
+
+.header-phone .navbar-default .navbar-nav>.open>a,
+.header-phone .navbar-default .navbar-nav>.open>a:focus,
+.header-phone .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header-phone .nav>li>a:focus,
+.header-phone .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.header-phone .navbar-nav>li {
+    margin-right: 20px;
+}
+
+.header-phone .navbar-nav {
+   margin-top: 12px;
+}
+
+.header-phone .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.header-phone .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.header-phone .navbar-brand {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-phone .navbar-brand:hover {
+    color: #ccc;
 }
