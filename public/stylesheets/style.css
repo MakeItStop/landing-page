@@ -8,6 +8,8 @@ body {
   background-size: cover;
   background-position: bottom;
   padding-bottom: 100px;
+  min-height:100%;
+  background-size:cover;
 }
 
 .intro .navbar-nav>li>a {
@@ -70,7 +72,7 @@ body {
 }
 
 #mockup {
-  width: 600px;
+  width: 800px;
   height: auto;
 }
 
@@ -83,6 +85,14 @@ body {
   margin-right: auto;
 }
 
+#simulator {
+  width: 312px;
+  height: 653px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {
   font-size: 70px;
   line-height: 60px;
@@ -90,15 +100,16 @@ h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   font-size: 20px;
   line-height: 30px;
 }
 
-.col-md-3 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
-
+.feature {
+  text-align: center;
+  margin-top: 150px;
 }
