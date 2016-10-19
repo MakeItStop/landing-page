@@ -1,5 +1,16 @@
-#demo.container-fluid
-  .col-md-8.col-md-offset-2.text-center
-    h2 Demo
-    p Try all the tasks out yourself. Make sure to change the difficulty.
-    iframe#simulator(src='https://appetize.io/embed/9u8mc98n64duqbtp8puja2thhm?device=iphone6s&scale=75&autoplay=true&orientation=portrait&deviceColor=black' frameborder='0' scrolling= 'no')
+#demo.container-fluid  
+  .row
+    .col-md-8.col-md-offset-2.text-center
+      h2 Demo
+      p Try all the tasks out yourself. Make sure to change the difficulty.
+  .row
+    .col-md-2 
+      img.tasks(src='images/mockups/iphone_6_white_tap_game.png')
+    .col-md-2 
+      img.tasks(src='images/mockups/iphone_6_white_maths_game.png')
+    .col-md-4
+      iframe#simulator(src='https://appetize.io/embed/9u8mc98n64duqbtp8puja2thhm?device=iphone6s&scale=75&autoplay=true&orientation=portrait&deviceColor=black' frameborder='0' scrolling= 'no')
+    .col-md-2
+      img.tasks(src='images/mockups/iphone_6_white_slider_game.png')
+    .col-md-2
+      img.tasks(src='images/mockups/iphone_6_white_gesture_game.png')
