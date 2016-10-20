@@ -1,0 +1,10 @@
+#features.container-fluid
+  .row
+    .col-md-8.col-md-offset-2.text-center
+      h2 Signup
+      p Test out MakeItStop! whilst in beta. Fill in your email below and we will send you the link
+  .row.text-center
+    form(action="https://formspree.io/makeitstop.contact@gmail.com" method="POST")
+      input(type="text" name="name" placeholder="Name")
+      input(type="email" name="email" placeholder="E-mail")
+      input(type="submit" value="Sign Up")
